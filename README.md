@@ -38,16 +38,14 @@
 </div>
 
 ---
-<p align ="center">📊 GitHub Analytics</p>
+<p>📊 GitHub Analytics</p>
 
-<div align="center">
-  
-![Karrad's Stats](https://github-readme-stats.vercel.app/api?username=karrad1201&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karrad1201&layout=compact&theme=radical&hide_border=true&langs_count=6)
-
+<div style="text-align: center;">
+    <img src="https://github-readme-stats.vercel.app/api?username=karrad1201&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Karrad's Stats" />
 </div>
-
----
+<div style="text-align: center; margin-top: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karrad1201&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" />
+</div>
 
 ---
 
