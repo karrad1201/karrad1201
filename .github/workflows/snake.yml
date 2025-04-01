@@ -1,35 +1,29 @@
-name: Generate Snake
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Запускать ежедневно в полночь
-  workflow_dispatch: # Разрешить ручной запуск
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         
       - name: Generate Snake
         uses: Platane/snk@v2
-        id: snake
         with:
           github_user_name: karrad1201
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          filters: '{"days": 365}' # За последний год
+          svg_out_path: snake.svg
+          filters: '{"days": 365}'
           
-      - name: Push to output branch
-        if: steps.snake.outputs.snake_created == 'true'
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake
-          path: dist/
-          
-      - name: Commit
+      - name: Commit to output branch
         uses: EndBug/add-and-commit@v9
         with:
           branch: output
-          path: dist
+          add: snake.svg
           message: "Update snake animation"
+          author_name: GitHub Actions
+          author_email: actions@github.com
