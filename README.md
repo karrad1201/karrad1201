@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=1DA1F2&center=true&vCenter=true&width=435&lines=👋+SALAM%2C+Я+𝕜𝕒𝕣𝕣𝕒𝕕;🐍+Python+Developer;💻+Backend+Engineer;🚀+Open+Source+Lover" alt="Typing Animation" />
 </h1>
 
-<div align="center">
+<div>
   
 ··················································
 
