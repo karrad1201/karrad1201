@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Snake
 
 on:
   schedule:
@@ -9,22 +9,21 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: output
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Snake
-        uses: Platane/snk@master
+          
+      - uses: Platane/snk@master
         with:
           github_user_name: karrad1201
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          show_other_contributions: true
           output: snake.svg
-
-      - name: Commit to output branch
-        uses: EndBug/add-and-commit@v9
+          
+      - uses: EndBug/add-and-commit@v9
         with:
           branch: output
           add: snake.svg
-          message: "Update snake animation"
+          message: "Update snake"
           token: ${{ secrets.GITHUB_TOKEN }}
