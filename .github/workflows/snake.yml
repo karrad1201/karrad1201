@@ -13,11 +13,9 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Generate Snake
-        uses: Platane/snk@v2
+        uses: Platane/snk@latest
         with:
           github_user_name: karrad1201
-          svg_out_path: snake.svg
-          filters: '{"days": 365}'
           
       - name: Commit to output branch
         uses: EndBug/add-and-commit@v9
