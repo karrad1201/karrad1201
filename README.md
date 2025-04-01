@@ -99,7 +99,7 @@ print(me.greet())
 
 <div align="center">
 
-![Contribution Snake](https://raw.githubusercontent.com/karrad1201/karrad1201/output/snake.svg)
+![Snake](https://raw.githubusercontent.com/karrad1201/karrad1201/output/snake.svg)
 
 <img src="https://komarev.com/ghpvc/?username=karrad1201&label=Profile%20views&color=0e75b6&style=flat" alt="karrad1201" />
 
