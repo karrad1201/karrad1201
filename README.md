@@ -7,3 +7,5 @@
   \/_/\/_/ \/_/\/_/ \/_/ /_/ \/_/ /_/ \/_/\/_/ \/____/ 
 </pre>
 </div>
+<h1 align="center">👋 SALAM, Я 𝕜𝕒𝕣𝕣𝕒𝕕</h1>
+<h3 align="center">🐍 Python Backend Developer</h3>
