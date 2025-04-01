@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Каждый день в 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: output
-          token: ${{ secrets.GITHUB_TOKEN }}  # Токен обязателен!
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Snake
         uses: Platane/snk@master
         with:
-          github_user_name: karrad1201
-          output: snake.svg  # Явно указываем файл
+          github_user_name: ваш-логин
+          output: snake.svg
 
       - name: Commit to output branch
         uses: EndBug/add-and-commit@v9
@@ -27,4 +27,4 @@ jobs:
           branch: output
           add: snake.svg
           message: "Update snake animation"
-          token: ${{ secrets.GITHUB_TOKEN }}  # Токен здесь тоже!
+          token: ${{ secrets.GITHUB_TOKEN }}
