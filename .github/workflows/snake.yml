@@ -1,35 +1,36 @@
-name: Snake Generator
+name: Contribution Snake Generator
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Ежедневно в полночь UTC
+  workflow_dispatch:     # Ручной запуск
   push:
-    branches: [ main ]
+    branches: [ main ]   # Запуск при push в main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # Шаг 1: Подготовка ветки output
+      - name: Checkout output branch
+        uses: actions/checkout@v4
         with:
           ref: output
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+          fetch-depth: 0  # Полная история коммитов
 
+      # Шаг 2: Генерация змейки (обновлённая версия)
       - name: Generate Snake
         uses: Platane/snk@master
+        id: snake
         with:
           github_user_name: karrad1201
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          show_other_contributions: true
-          force_update: true
-          output: snake.svg
+          svg_out_path: snake.svg
 
-      - name: Force Push
+      # Шаг 3: Автоматический коммит
+      - name: Commit to output branch
+        if: steps.snake.outputs.has_changes == 'true'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add snake.svg
-          git commit -m "Update snake: $(date)"
-          git push origin output --force
+          git commit -m "Update snake: $(date +'%Y-%
