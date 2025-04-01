@@ -18,7 +18,7 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@master
         with:
-          github_user_name: ваш-логин
+          github_user_name: karrad1201
           output: snake.svg
 
       - name: Commit to output branch
