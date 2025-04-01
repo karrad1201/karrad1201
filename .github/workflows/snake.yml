@@ -1,4 +1,4 @@
-name: Snake Generator
+name: Snake Generator 
 
 on:
   schedule:
