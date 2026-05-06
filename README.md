@@ -1,79 +1,64 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=1DA1F2&center=true&vCenter=true&width=435&lines=👋+SALAM%2C+Я+𝕜𝕒𝕣𝕣𝕒𝕕;🐍+Python+Developer;💻+Backend+Engineer;🚀+Open+Source+Lover" alt="Typing Animation">
-</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Karrad;Backend+Engineer;Go+%7C+Python+%7C+Rust;Building+things+that+scale" alt="Typing SVG" />
+</div>
+
+<br/>
+
+```go
+package main
+
+type Developer struct {
+    Name     string
+    Location string
+    Focus    []string
+    Stack    map[string][]string
+}
+
+var me = Developer{
+    Name:     "Dmitry (karrad)",
+    Location: "Russia",
+    Focus:    []string{"Backend", "Fintech", "SaaS", "Telegram ecosystems"},
+    Stack: map[string][]string{
+        "Languages":  {"Go", "Python", "Rust", "TypeScript"},
+        "Frameworks": {"FastAPI", "aiogram", "NestJS", "Compose Multiplatform"},
+        "Infra":      {"Docker", "Redis", "PostgreSQL", "MariaDB"},
+        "Protocols":  {"REST", "gRPC", "WebSocket", "Telegram Bot API"},
+    },
+}
+```
+
+<br/>
+
+## What I build
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [ticketsbackend](https://github.com/karrad1201/ticketsbackend) | Go | Visit Kalmykia — ticket platform backend |
+| [DTAP-golang](https://github.com/karrad1201/DTAP-golang) | Go | Dual Token Auth Protocol — GJWT + LJWT, geo-binding |
+| [teenfreelance](https://github.com/karrad1201/teenfreelance) | Python + Next.js | Freelance platform for students, Clean Arch |
+| [AccMarketBackend](https://github.com/karrad1201/AccMarketBackend) | Go | Account marketplace — microservices |
+| [elbrusbot](https://github.com/karrad1201/elbrusbot) | Go | ElbrusVPN v4 — lifecycle + Telegram bots |
+| [IAR](https://github.com/karrad1201/IAR) | Rust | Impulse Anticipator & Rider — algo trading core |
+| [restfastapitemplate](https://github.com/karrad1201/restfastapitemplate) | Python | Production-ready FastAPI template |
+| [denta.land.backend](https://github.com/karrad1201/denta.land.backend) | Python | Dental platform backend |
+
+<br/>
 
 <div align="center">
-<pre>
- __  __   ______   ______   ______   ______   _____    
-/\ \/ /  /\  __ \ /\  == \ /\  == \ /\  __ \ /\  __-.  
-\ \  _"-.\ \  __ \\ \  __< \ \  __< \ \  __ \\ \ \/\ \ 
- \ \_\ \_\\ \_\ \_\\ \_\ \_\\ \_\ \_\\ \_\ \_\\ \____- 
-  \/_/\/_/ \/_/\/_/ \/_/ /_/ \/_/ /_/ \/_/\/_/ \/____/ 
-</pre>
-</div>
 
-<p align="center">
-  <a href="https://t.me/KarradM" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>
-  <a href="mailto:karad120109@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
-</p>
-
----
-
-<p align="center">
-   🛠 Технологический арсенал
-</p>
-
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=black)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=black)
-![Telegram API](https://img.shields.io/badge/-Telegram_Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=black)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=black)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=karrad1201&show_icons=true&theme=transparent&hide_border=true&title_color=bb86fc&icon_color=03dac6&text_color=f0f0f0&include_all_commits=true)](https://github.com/karrad1201)
+&nbsp;&nbsp;
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karrad1201&layout=compact&theme=transparent&hide_border=true&title_color=bb86fc&text_color=f0f0f0&langs_count=6)](https://github.com/karrad1201)
 
 </div>
 
----
-<p>📊 GitHub Analytics</p>
+<br/>
 
-<div style="text-align: center;">
-    <img src="https://github-readme-stats.vercel.app/api?username=karrad1201&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Karrad's Stats" />
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-@KarrradM-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/KarrradM)
+[![Email](https://img.shields.io/badge/Email-karad120109@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:karad120109@gmail.com)
+[![Site](https://img.shields.io/badge/Site-karrad1201.github.io-bb86fc?style=flat-square&logo=github&logoColor=white)](https://karrad1201.github.io)
+[![Kwork](https://img.shields.io/badge/Kwork-karrad-00b956?style=flat-square&logoColor=white)](https://kwork.ru/user/karrad)
+
 </div>
-<div style="text-align: center; margin-top: 20px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karrad1201&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" />
-</div>
-
----
-
-### 💡 About
-
-```python
-class Karrad:
-    def __init__(self):
-        self.name = "Dmitry"
-        self.role = "Python Developer"
-        self.location = "Russia"
-        self.passion = "Воркаю"
-        
-        self.skills = {
-            "Languages": ["Python", "more with deepseek:)"],
-            "Frameworks": ["Flask", "Telebot", "more"],
-        }
-        
-        self.hobbies = [
-            "🏋️‍♂️ Спорт",
-            "🔧 Техника",
-            "🎮 Видеоигры",
-            "📚 Обществоведение",
-            "🌍 Реальная жизнь"
-        ]
-    
-    def greet(self):
-        return "Salam! Добро пожаловать в мой профиль!"
-
-me = Karrad()
-print(me.greet())
